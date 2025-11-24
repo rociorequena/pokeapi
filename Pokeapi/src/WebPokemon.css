@@ -1,0 +1,48 @@
+
+*{ 
+    box-sizing: border-box; 
+    padding:0; 
+    margin:0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+}
+
+header {
+    
+    background-image: url(/POKEMON.jpeg);
+    background-color: #282c34;
+    background-size: min-cover;
+    background-position: center;
+    color: white;
+    padding: 40px 20px; 
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(255, 0, 0, 0.3);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+    background-color: #03308b6d; 
+    padding: 0.2em; 
+    border-radius: 4px; 
+}
+
+.main-content {
+    min-height: 80vh; 
+    padding: 20px;
+    margin: 0 auto;
+    color: #111; 
+}
+
+footer {
+    background-color: #282c34;
+    color: #aaa;
+    padding: 15px;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 30px;
+};

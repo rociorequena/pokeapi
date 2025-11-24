@@ -18,12 +18,10 @@ export const BaseStats = ({ pokemon, colorSelected }: Props) => {
   };
   return (
     <div className={styles.baseStats}>
-      {/* @ts-ignore */}
       {pokemon?.stats?.map(({ base_stat, stat: { name } }) => {
         return (
           <div key={name} className={styles.item}>
             <span style={{ color: colorSelected }}>
-              {/* @ts-ignore */}
               {baseStatNames[name]}
             </span>
             <div className={styles.rigth}>

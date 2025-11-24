@@ -1,0 +1,14 @@
+.generacion-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1400px;
+}
+
+.error-message {
+    color: #dc3545;
+    text-align: center;
+    padding: 40px;
+}

@@ -13,7 +13,6 @@ interface Props {
 }
 
 export const PokemonDetail = ({ pokemon }: Props) => {
-  /* @ts-ignore */
   const colorSelected = background[pokemon?.types[0]?.type.name];
 
   if (!pokemon) {

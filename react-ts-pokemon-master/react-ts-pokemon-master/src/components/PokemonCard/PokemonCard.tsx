@@ -11,7 +11,7 @@ interface Props {
 export const PokemonCard = ({ url }: Props) => {
   const { pokemon } = usePokemon(url);
 
-  /* @ts-ignore */
+  
   const colorSelected = background[pokemon?.types[0]?.type.name];
 
   return (
